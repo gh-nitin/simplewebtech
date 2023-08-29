@@ -22,6 +22,8 @@ nav ul{
 nav ul li{
     display:inline-block;
     margin-right: 20px;
+    margin-left: 10px;
+
 }
 a{
     text-decoration: none;
@@ -72,7 +74,7 @@ a{
     transition:background 0.5s;
 }
 .btn:hover{
-    background:gray;
+    background:red;
 }
 .header .row{
     margin-top:70px;
@@ -170,3 +172,13 @@ a .cart img{
     font-size: 25px;
     font-weight: 400;
 }
+.login{
+    border:none;
+    box-shadow: 5px;
+    margin:1px;
+    padding: 3px 3px;
+    background:black;
+    border-radius: 8px;
+    color:white;
+}
+
